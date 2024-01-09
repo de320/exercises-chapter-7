@@ -6,3 +6,6 @@ build-backend = "hatchling.build"
 name = "chapter-7"
 version = "0.1"
 dependencies = ["numpy"]
+
+[tool.hatch.build.targets.wheel]
+      packages = ["groups", "example_code"]
